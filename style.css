@@ -1,0 +1,74 @@
+.body {padding: 0; margin: 0; overflow: hidden;}
+
+
+.Portada {height:750px; background-color: black; width: 100%;}
+.lineas { height:750px}
+.titulo {font-size: 40px; color: white; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder; padding: 10px ; padding-top: 40px; width: 100%; position: absolute; margin-left: 950px; overflow-x: hidden;}
+.index {font-family: 'Helvetica Neue', sans-serif; font-size: 20px; font-weight:400; padding: 960px; position: absolute ;color: white; padding-top: 130px; width: 10%; overflow-x: hidden;}
+
+.index a {text-decoration: none; color: white;}
+
+.index a:hover {background-color: #F683CE;}
+
+.Portada p {font-size: 15px; text-align: left;font-family: 'Helvetica Neue', sans-serif;color: black;font-style: italic;}
+
+.subti1 { font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align: left; padding-left: 99px;}
+.definicion1 {font-size: 20px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter; padding-left: 100px; padding-right: 30px; }
+.bold {font-weight: 310;}
+
+.datart1 {height: 200px; margin-left: 100px; margin-top: 20px;}
+.datart2 {height: 200px; margin-left: 0px; margin-top: 20px;}
+.datart3 {height: 200px; margin-left: 0px; margin-top: 20px;}
+.datart4 {height: 200px; margin-left: 0px; margin-top: 20px;}
+
+
+
+.contenedor { display: flex; align-items: center; padding-top: 50px;}
+.datart3a {height: auto; margin-right: 20px; max-width: 1000px;}
+.contenedor p {font-size: 20px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter; padding-right: 50px; padding-top: 30px;padding-left: 10px;}
+
+.ryoji { display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.ryoji img {
+    max-width: 400px; 
+    margin-bottom: 20px;}
+.subti2 {position: relative;font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:center; padding-right: 30px; padding-top: 40px;}
+.subti2::after {content: "";position: absolute;right: 0;top: 0;width: 2px; height: 100%;background-color: black;padding-right: 10px;}
+
+.ryoji p {font-size: 40px;color: black; font-family: 'Helvetica Neue', sans-serif;}
+
+.biografia {font-size: 20px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter; padding-left: 450px;padding-right: 450px; padding-top: 30;}
+
+.subti3 {font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:right; padding-right: 60px; padding-top: 40px;}
+
+#datamatics img {width: 430px; 
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: right; padding-left: 20px;height: 300px;}
+
+.def1 {font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 20px; padding-right: 60px;}
+.def2 {font-size: 20px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align: left; padding-right: 60px; padding-top: 40px; font-style: italic; padding-left: 60px;}
+.deff {font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 60px; padding-right: 780px;}
+.def3 {position: relative; font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 800px; padding-right: 60px;}
+.def3::before {content: "";position: absolute;left: 0;top: 0;width: 2px; height: 100%;background-color: black;padding-left: 720px;}
+
+.subti4 {font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:left; padding-right: 60px; padding-top: 80px;}
+.subti5 {font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:left; padding-right: 60px; padding-top: 80px;}
+.subti6 {position:relative;font-size: 20px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:left; padding-left: 240px; padding-top: 0px;font-style: italic;}
+.subti6::after {content: "";position: absolute;right: 0;top: 0;width: 2px; height: 100%;background-color: black;padding-right: 1000px;}
+.subti6::before {content: "";position: absolute;left: 0;top: 0;width: 2px; height: 100%;background-color: black;padding-right: 215px;}
+
+.intro1 {font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 20px; padding-right: 60px;padding-top: 40px;}
+
+.intro2 {position: relative;font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 400px; padding-right: 60px;padding-top: 80px;}
+.intro2::before {content: "";position: relative;left: 0;top: 0;width: 2px; height:100%;background-color: black;padding-top: 80px;padding-left: 20px;}
+.intro2::after {content: "";position: relative;left: 0;top: 0;width: 2px; height:100%;background-color: black;padding-top: 0px;padding-left: 20px;padding-bottom: 20px;}
+
+.intro3 {position: relative;font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-left: 20px; padding-right: 850px;padding-top: 80px;}
+
+.subti7 {font-size: 60px; color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: bolder;text-align:center; padding-right: 60px; padding-top: 80px;}
+
+.ref {font-size: 20px;color: black; font-family: 'Helvetica Neue', sans-serif; font-weight: lighter;padding-top: 0px; text-align: center; padding-inline: 500px;padding-bottom: 40px;}
+.ref::after { content: "";position: relative;left: 0;top: 0;width: 4px; height:100%;background-color: black;padding-top: 0px;padding-left: 20px;padding-bottom: 80px;}

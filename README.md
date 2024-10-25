@@ -1,2 +1,1 @@
-# pcomp2024b_p02_datamatics_gutierrez
-trabajo pcom
+# pcomp2
